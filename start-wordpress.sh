@@ -48,9 +48,16 @@ fi
 sudo docker network create web
 
 # Add the hostname to /etc/hosts
-if [ "$(grep -m1 "example.com" /etc/hosts)" = "" ]; then
-    echo "Adding example.com to /etc/hosts"
-fi
+#if [ "$(grep -m1 "example.com" /etc/hosts)" = "" ]; then
+#    echo "Adding example.com to /etc/hosts"
+#fi
+
+#echo "127.0.0.1  example.com" >> /etc/hosts
+
+-i[SUFFIX], --in-place[=SUFFIX]
+  edit files in place (makes backup if extension supplied)
+
+sed -i "127.0.0.1  example.com" /etc/hosts
 
 #Install WordPress using Docker Compose
 #git clone https://github.com/rajaseg/LEMP-WordPress.git
