@@ -1,0 +1,1 @@
+store nginx logs
