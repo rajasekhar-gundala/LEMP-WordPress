@@ -12,7 +12,7 @@ services:
     networks:
       - web
     volumes:
-      - ./nginx:/etc/nginx/nginx.conf
+      - ./nginx:/etc/nginx/conf.d
       - ./nginxlogs:/var/log/nginx
       - ./wordpress:/var/www/html
       
