@@ -44,6 +44,8 @@ sudo chmod +x /usr/local/bin/docker-compose
 fi
 
     echo "Docker Compose installed successfully"
+#Create docker network
+sudo docker network create web
 
 # Add the hostname to /etc/hosts
 if [ "$(grep -m1 "example.com" /etc/hosts)" = "" ]; then
