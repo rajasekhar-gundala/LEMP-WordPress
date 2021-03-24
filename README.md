@@ -1,6 +1,8 @@
 # LEMP-WordPress
 Deploy WordPress on LEMP Stack using Docker Compose
 
+> Clone the repository and go to Install step to setup WordPress
+
 ## Contents of the Repository
 This repository contains WordPress application running on LEMP Stack, supported by Docker and orchestrated by Docker Compose.
 
