@@ -51,11 +51,6 @@ Once after getting the repository, use ```docker-compose up -d``` and wait for t
 
 Open the domain, example.com in the web browser. Create an admin account and click the Install WordPress button.
 
-## Manage MariaDB using Adminer
-You can manage your MariaDB database using Adminer container that was included in the repository.
-
-Open the web browser and enter dbadmin.example.com to open Adminer interface. Use root account and myswl_root_password to log into it.
-
 ## Stop the containers
 Change the file permission with 777 for ```stop-wordpress.sh```
 
@@ -69,7 +64,7 @@ If you want to remove manully...
 
 Use command ```docker-compose down``` removes the containers, but preserves your WordPress database.
 
-#Remove WordPress and Cleanup
+## Remove WordPress and Cleanup
 Change the file permission with 777 for ```delete-wordpress.sh```
 
 ```sudo chmod 777 delete-wordpress.sh```
