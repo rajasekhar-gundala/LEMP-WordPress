@@ -45,7 +45,7 @@ fi
 
     echo "Docker Compose installed successfully"
 #Create docker network
-sudo docker network create web
+#sudo docker network create web
 
 # Add the hostname to /etc/hosts
 #if [ "$(grep -m1 "example.com" /etc/hosts)" = "" ]; then
@@ -54,7 +54,7 @@ sudo docker network create web
 
 #echo "127.0.0.1  example.com" >> /etc/hosts
 
-sudo /bin/sh -c 'echo "127.0.0.1 example.com" >> /etc/hosts'
+#sudo /bin/sh -c 'echo "127.0.0.1 example.com" >> /etc/hosts'
 
 #Install WordPress using Docker Compose
 #git clone https://github.com/rajaseg/LEMP-WordPress.git

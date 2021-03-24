@@ -1,1 +1,0 @@
-store wordpress data
