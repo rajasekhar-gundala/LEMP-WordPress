@@ -49,7 +49,7 @@ If you want to proceed manual process; please make sure pre-requisites installed
 
 Once after getting the repository, use ```docker-compose up -d``` and wait for the containers to configure the WordPress site.
 
-Open the domain, example.com in the web browser. Create an admin account and click the Install WordPress button.
+> Use ```lynx example.com``` to access ```example.com``` using ```lynx``` text browser if you want to test installation.
 
 ## Stop the containers
 Change the file permission with 777 for ```stop-wordpress.sh```
